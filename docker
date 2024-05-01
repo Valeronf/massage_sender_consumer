@@ -1,0 +1,267 @@
+2023-12-20 19:19:15 2023-12-20 17:19:15.357434+00:00 [notice] <0.44.0> Application syslog exited with reason: stopped
+2023-12-20 19:19:15 2023-12-20 17:19:15.361212+00:00 [notice] <0.230.0> Logging: switching to configured handler(s); following messages may not be visible in this log output
+2023-12-20 19:19:15 2023-12-20 17:19:15.361549+00:00 [notice] <0.230.0> Logging: configured log handlers are now ACTIVE
+2023-12-20 19:19:15 2023-12-20 17:19:15.469864+00:00 [info] <0.230.0> ra: starting system quorum_queues
+2023-12-20 19:19:15 2023-12-20 17:19:15.469895+00:00 [info] <0.230.0> starting Ra system: quorum_queues in directory: /var/lib/rabbitmq/mnesia/rabbit@4a53e167e7ed/quorum/rabbit@4a53e167e7ed
+2023-12-20 19:19:15 2023-12-20 17:19:15.505524+00:00 [info] <0.261.0> ra system 'quorum_queues' running pre init for 0 registered servers
+2023-12-20 19:19:15 2023-12-20 17:19:15.511857+00:00 [info] <0.262.0> ra: meta data store initialised for system quorum_queues. 0 record(s) recovered
+2023-12-20 19:19:15 2023-12-20 17:19:15.520444+00:00 [notice] <0.267.0> WAL: ra_log_wal init, open tbls: ra_log_open_mem_tables, closed tbls: ra_log_closed_mem_tables
+2023-12-20 19:19:15 2023-12-20 17:19:15.523895+00:00 [info] <0.230.0> ra: starting system coordination
+2023-12-20 19:19:15 2023-12-20 17:19:15.523910+00:00 [info] <0.230.0> starting Ra system: coordination in directory: /var/lib/rabbitmq/mnesia/rabbit@4a53e167e7ed/coordination/rabbit@4a53e167e7ed
+2023-12-20 19:19:15 2023-12-20 17:19:15.524480+00:00 [info] <0.274.0> ra system 'coordination' running pre init for 0 registered servers
+2023-12-20 19:19:15 2023-12-20 17:19:15.524798+00:00 [info] <0.275.0> ra: meta data store initialised for system coordination. 0 record(s) recovered
+2023-12-20 19:19:15 2023-12-20 17:19:15.524856+00:00 [notice] <0.280.0> WAL: ra_coordination_log_wal init, open tbls: ra_coordination_log_open_mem_tables, closed tbls: ra_coordination_log_closed_mem_tables
+2023-12-20 19:19:15 2023-12-20 17:19:15.525961+00:00 [info] <0.230.0> 
+2023-12-20 19:19:15 2023-12-20 17:19:15.525961+00:00 [info] <0.230.0>  Starting RabbitMQ 3.12.10 on Erlang 25.3.2.7 [jit]
+2023-12-20 19:19:15 2023-12-20 17:19:15.525961+00:00 [info] <0.230.0>  Copyright (c) 2007-2023 VMware, Inc. or its affiliates.
+2023-12-20 19:19:15 2023-12-20 17:19:15.525961+00:00 [info] <0.230.0>  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+2023-12-20 19:19:15 
+2023-12-20 19:19:15   ##  ##      RabbitMQ 3.12.10
+2023-12-20 19:19:15   ##  ##
+2023-12-20 19:19:15   ##########  Copyright (c) 2007-2023 VMware, Inc. or its affiliates.
+2023-12-20 19:19:15   ######  ##
+2023-12-20 19:19:15   ##########  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+2023-12-20 19:19:15 
+2023-12-20 19:19:15   Erlang:      25.3.2.7 [jit]
+2023-12-20 19:19:15   TLS Library: OpenSSL - OpenSSL 3.1.4 24 Oct 2023
+2023-12-20 19:19:15   Release series support status: supported
+2023-12-20 19:19:15 
+2023-12-20 19:19:15   Doc guides:  https://rabbitmq.com/documentation.html
+2023-12-20 19:19:15   Support:     https://rabbitmq.com/contact.html
+2023-12-20 19:19:15   Tutorials:   https://rabbitmq.com/getstarted.html
+2023-12-20 19:19:15   Monitoring:  https://rabbitmq.com/monitoring.html
+2023-12-20 19:19:15 
+2023-12-20 19:19:15   Logs: <stdout>
+2023-12-20 19:19:15 
+2023-12-20 19:19:15   Config file(s): /etc/rabbitmq/conf.d/10-defaults.conf
+2023-12-20 19:19:15 
+2023-12-20 19:19:15   Starting broker...2023-12-20 17:19:15.529721+00:00 [info] <0.230.0> 
+2023-12-20 19:19:15 2023-12-20 17:19:15.529721+00:00 [info] <0.230.0>  node           : rabbit@4a53e167e7ed
+2023-12-20 19:19:15 2023-12-20 17:19:15.529721+00:00 [info] <0.230.0>  home dir       : /var/lib/rabbitmq
+2023-12-20 19:19:15 2023-12-20 17:19:15.529721+00:00 [info] <0.230.0>  config file(s) : /etc/rabbitmq/conf.d/10-defaults.conf
+2023-12-20 19:19:15 2023-12-20 17:19:15.529721+00:00 [info] <0.230.0>  cookie hash    : F735daHpuC9r2WQxkX+hzA==
+2023-12-20 19:19:15 2023-12-20 17:19:15.529721+00:00 [info] <0.230.0>  log(s)         : <stdout>
+2023-12-20 19:19:15 2023-12-20 17:19:15.529721+00:00 [info] <0.230.0>  data dir       : /var/lib/rabbitmq/mnesia/rabbit@4a53e167e7ed
+2023-12-20 19:19:17 2023-12-20 17:19:17.299582+00:00 [info] <0.230.0> Running boot step pre_boot defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.299645+00:00 [info] <0.230.0> Running boot step rabbit_global_counters defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.299877+00:00 [info] <0.230.0> Running boot step rabbit_osiris_metrics defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.299980+00:00 [info] <0.230.0> Running boot step rabbit_core_metrics defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.300536+00:00 [info] <0.230.0> Running boot step rabbit_alarm defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.303344+00:00 [info] <0.299.0> Memory high watermark set to 1570 MiB (1646909849 bytes) of 3926 MiB (4117274624 bytes) total
+2023-12-20 19:19:17 2023-12-20 17:19:17.305312+00:00 [info] <0.301.0> Enabling free disk space monitoring (disk free space: 55474118656, total memory: 4117274624)
+2023-12-20 19:19:17 2023-12-20 17:19:17.305341+00:00 [info] <0.301.0> Disk free limit set to 50MB
+2023-12-20 19:19:17 2023-12-20 17:19:17.306295+00:00 [info] <0.230.0> Running boot step code_server_cache defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.306332+00:00 [info] <0.230.0> Running boot step file_handle_cache defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.306447+00:00 [info] <0.304.0> Limiting to approx 1048479 file handles (943629 sockets)
+2023-12-20 19:19:17 2023-12-20 17:19:17.306508+00:00 [info] <0.305.0> FHC read buffering: OFF
+2023-12-20 19:19:17 2023-12-20 17:19:17.306526+00:00 [info] <0.305.0> FHC write buffering: ON
+2023-12-20 19:19:17 2023-12-20 17:19:17.306791+00:00 [info] <0.230.0> Running boot step worker_pool defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.306818+00:00 [info] <0.282.0> Will use 8 processes for default worker pool
+2023-12-20 19:19:17 2023-12-20 17:19:17.306841+00:00 [info] <0.282.0> Starting worker pool 'worker_pool' with 8 processes in it
+2023-12-20 19:19:17 2023-12-20 17:19:17.307049+00:00 [info] <0.230.0> Running boot step database defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.307339+00:00 [info] <0.230.0> Node database directory at /var/lib/rabbitmq/mnesia/rabbit@4a53e167e7ed is empty. Assuming we need to join an existing cluster or initialise from scratch...
+2023-12-20 19:19:17 2023-12-20 17:19:17.307377+00:00 [info] <0.230.0> Configured peer discovery backend: rabbit_peer_discovery_classic_config
+2023-12-20 19:19:17 2023-12-20 17:19:17.307399+00:00 [info] <0.230.0> Will try to lock with peer discovery backend rabbit_peer_discovery_classic_config
+2023-12-20 19:19:17 2023-12-20 17:19:17.307465+00:00 [info] <0.230.0> All discovered existing cluster peers:
+2023-12-20 19:19:17 2023-12-20 17:19:17.307483+00:00 [info] <0.230.0> Discovered no peer nodes to cluster with. Some discovery backends can filter nodes out based on a readiness criteria. Enabling debug logging might help troubleshoot.
+2023-12-20 19:19:17 2023-12-20 17:19:17.308722+00:00 [notice] <0.44.0> Application mnesia exited with reason: stopped
+2023-12-20 19:19:17 2023-12-20 17:19:17.343720+00:00 [info] <0.230.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2023-12-20 19:19:17 2023-12-20 17:19:17.343763+00:00 [info] <0.230.0> Successfully synced tables from a peer
+2023-12-20 19:19:17 2023-12-20 17:19:17.343934+00:00 [notice] <0.283.0> Feature flags: attempt to enable `stream_sac_coordinator_unblock_group`...
+2023-12-20 19:19:17 2023-12-20 17:19:17.355875+00:00 [notice] <0.283.0> Feature flags: `stream_sac_coordinator_unblock_group` enabled
+2023-12-20 19:19:17 2023-12-20 17:19:17.355916+00:00 [notice] <0.283.0> Feature flags: attempt to enable `restart_streams`...
+2023-12-20 19:19:17 2023-12-20 17:19:17.367980+00:00 [notice] <0.283.0> Feature flags: `restart_streams` enabled
+2023-12-20 19:19:17 2023-12-20 17:19:17.368076+00:00 [info] <0.230.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2023-12-20 19:19:17 2023-12-20 17:19:17.368150+00:00 [info] <0.230.0> Successfully synced tables from a peer
+2023-12-20 19:19:17 2023-12-20 17:19:17.370814+00:00 [info] <0.230.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2023-12-20 19:19:17 2023-12-20 17:19:17.370869+00:00 [info] <0.230.0> Successfully synced tables from a peer
+2023-12-20 19:19:17 2023-12-20 17:19:17.370885+00:00 [info] <0.230.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
+2023-12-20 19:19:17 2023-12-20 17:19:17.370922+00:00 [info] <0.230.0> Will try to unlock with peer discovery backend rabbit_peer_discovery_classic_config
+2023-12-20 19:19:17 2023-12-20 17:19:17.371027+00:00 [info] <0.230.0> Running boot step tracking_metadata_store defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371066+00:00 [info] <0.486.0> Setting up a table for connection tracking on this node: tracked_connection
+2023-12-20 19:19:17 2023-12-20 17:19:17.371088+00:00 [info] <0.486.0> Setting up a table for per-vhost connection counting on this node: tracked_connection_per_vhost
+2023-12-20 19:19:17 2023-12-20 17:19:17.371138+00:00 [info] <0.486.0> Setting up a table for per-user connection counting on this node: tracked_connection_per_user
+2023-12-20 19:19:17 2023-12-20 17:19:17.371170+00:00 [info] <0.486.0> Setting up a table for channel tracking on this node: tracked_channel
+2023-12-20 19:19:17 2023-12-20 17:19:17.371204+00:00 [info] <0.486.0> Setting up a table for channel tracking on this node: tracked_channel_per_user
+2023-12-20 19:19:17 2023-12-20 17:19:17.371253+00:00 [info] <0.230.0> Running boot step networking_metadata_store defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371299+00:00 [info] <0.230.0> Running boot step feature_flags defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371410+00:00 [info] <0.230.0> Running boot step codec_correctness_check defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371429+00:00 [info] <0.230.0> Running boot step external_infrastructure defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371468+00:00 [info] <0.230.0> Running boot step rabbit_event defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371527+00:00 [info] <0.230.0> Running boot step rabbit_registry defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371579+00:00 [info] <0.230.0> Running boot step rabbit_auth_mechanism_amqplain defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371614+00:00 [info] <0.230.0> Running boot step rabbit_auth_mechanism_cr_demo defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371659+00:00 [info] <0.230.0> Running boot step rabbit_auth_mechanism_plain defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371699+00:00 [info] <0.230.0> Running boot step rabbit_exchange_type_direct defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371727+00:00 [info] <0.230.0> Running boot step rabbit_exchange_type_fanout defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371758+00:00 [info] <0.230.0> Running boot step rabbit_exchange_type_headers defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371779+00:00 [info] <0.230.0> Running boot step rabbit_exchange_type_topic defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371801+00:00 [info] <0.230.0> Running boot step rabbit_mirror_queue_mode_all defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371827+00:00 [info] <0.230.0> Running boot step rabbit_mirror_queue_mode_exactly defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371869+00:00 [info] <0.230.0> Running boot step rabbit_mirror_queue_mode_nodes defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371921+00:00 [info] <0.230.0> Running boot step rabbit_priority_queue defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.371939+00:00 [info] <0.230.0> Priority queues enabled, real BQ is rabbit_variable_queue
+2023-12-20 19:19:17 2023-12-20 17:19:17.371964+00:00 [info] <0.230.0> Running boot step rabbit_queue_location_client_local defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.372006+00:00 [info] <0.230.0> Running boot step rabbit_queue_location_min_masters defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.372026+00:00 [info] <0.230.0> Running boot step rabbit_queue_location_random defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.372057+00:00 [info] <0.230.0> Running boot step kernel_ready defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.372067+00:00 [info] <0.230.0> Running boot step rabbit_sysmon_minder defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.372138+00:00 [info] <0.230.0> Running boot step rabbit_epmd_monitor defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.372810+00:00 [info] <0.494.0> epmd monitor knows us, inter-node communication (distribution) port: 25672
+2023-12-20 19:19:17 2023-12-20 17:19:17.372849+00:00 [info] <0.230.0> Running boot step guid_generator defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.373491+00:00 [info] <0.230.0> Running boot step rabbit_node_monitor defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.373575+00:00 [info] <0.498.0> Starting rabbit_node_monitor (in ignore mode)
+2023-12-20 19:19:17 2023-12-20 17:19:17.373634+00:00 [info] <0.230.0> Running boot step delegate_sup defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.373840+00:00 [info] <0.230.0> Running boot step rabbit_memory_monitor defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.373967+00:00 [info] <0.230.0> Running boot step rabbit_fifo_dlx_sup defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.374004+00:00 [info] <0.230.0> Running boot step core_initialized defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.374015+00:00 [info] <0.230.0> Running boot step rabbit_channel_tracking_handler defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.374039+00:00 [info] <0.230.0> Running boot step rabbit_connection_tracking_handler defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.374073+00:00 [info] <0.230.0> Running boot step rabbit_definitions_hashing defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.374111+00:00 [info] <0.230.0> Running boot step rabbit_exchange_parameters defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.374277+00:00 [info] <0.230.0> Running boot step rabbit_mirror_queue_misc defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.374415+00:00 [info] <0.230.0> Running boot step rabbit_policies defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.374538+00:00 [info] <0.230.0> Running boot step rabbit_policy defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.374560+00:00 [info] <0.230.0> Running boot step rabbit_queue_location_validator defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.374581+00:00 [info] <0.230.0> Running boot step rabbit_quorum_memory_manager defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.374596+00:00 [info] <0.230.0> Running boot step rabbit_stream_coordinator defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.374661+00:00 [info] <0.230.0> Running boot step rabbit_vhost_limit defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.374694+00:00 [info] <0.230.0> Running boot step rabbit_mgmt_reset_handler defined by app rabbitmq_management
+2023-12-20 19:19:17 2023-12-20 17:19:17.374716+00:00 [info] <0.230.0> Running boot step rabbit_mgmt_db_handler defined by app rabbitmq_management_agent
+2023-12-20 19:19:17 2023-12-20 17:19:17.374734+00:00 [info] <0.230.0> Management plugin: using rates mode 'basic'
+2023-12-20 19:19:17 2023-12-20 17:19:17.374869+00:00 [info] <0.230.0> Running boot step recovery defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.375219+00:00 [info] <0.230.0> Running boot step empty_db_check defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.375239+00:00 [info] <0.230.0> Will seed default virtual host and user...
+2023-12-20 19:19:17 2023-12-20 17:19:17.375289+00:00 [info] <0.230.0> Adding vhost '/' (description: 'Default virtual host', tags: [])
+2023-12-20 19:19:17 2023-12-20 17:19:17.375960+00:00 [info] <0.230.0> Inserted a virtual host record {vhost,<<"/">>,[],
+2023-12-20 19:19:17 2023-12-20 17:19:17.375960+00:00 [info] <0.230.0>                                       #{description =>
+2023-12-20 19:19:17 2023-12-20 17:19:17.375960+00:00 [info] <0.230.0>                                             <<"Default virtual host">>,
+2023-12-20 19:19:17 2023-12-20 17:19:17.375960+00:00 [info] <0.230.0>                                         tags => []}}
+2023-12-20 19:19:17 2023-12-20 17:19:17.379898+00:00 [info] <0.543.0> Making sure data directory '/var/lib/rabbitmq/mnesia/rabbit@4a53e167e7ed/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+2023-12-20 19:19:17 2023-12-20 17:19:17.380333+00:00 [info] <0.543.0> Setting segment_entry_count for vhost '/' with 0 queues to '2048'
+2023-12-20 19:19:17 2023-12-20 17:19:17.381634+00:00 [info] <0.543.0> Starting message stores for vhost '/'
+2023-12-20 19:19:17 2023-12-20 17:19:17.381719+00:00 [info] <0.553.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2023-12-20 19:19:17 2023-12-20 17:19:17.382290+00:00 [info] <0.543.0> Started message store of type transient for vhost '/'
+2023-12-20 19:19:17 2023-12-20 17:19:17.382336+00:00 [info] <0.557.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2023-12-20 19:19:17 2023-12-20 17:19:17.382665+00:00 [warning] <0.557.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
+2023-12-20 19:19:17 2023-12-20 17:19:17.383005+00:00 [info] <0.543.0> Started message store of type persistent for vhost '/'
+2023-12-20 19:19:17 2023-12-20 17:19:17.383052+00:00 [info] <0.543.0> Recovering 0 queues of type rabbit_classic_queue took 2ms
+2023-12-20 19:19:17 2023-12-20 17:19:17.383074+00:00 [info] <0.543.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
+2023-12-20 19:19:17 2023-12-20 17:19:17.383107+00:00 [info] <0.543.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2023-12-20 19:19:17 2023-12-20 17:19:17.384308+00:00 [info] <0.230.0> Created user 'guest'
+2023-12-20 19:19:17 2023-12-20 17:19:17.384852+00:00 [info] <0.230.0> Successfully set user tags for user 'guest' to [administrator]
+2023-12-20 19:19:17 2023-12-20 17:19:17.385370+00:00 [info] <0.230.0> Successfully set permissions for user 'guest' in virtual host '/' to '.*', '.*', '.*'
+2023-12-20 19:19:17 2023-12-20 17:19:17.385390+00:00 [info] <0.230.0> Running boot step rabbit_observer_cli defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.385415+00:00 [info] <0.230.0> Running boot step rabbit_looking_glass defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.385429+00:00 [info] <0.230.0> Running boot step rabbit_core_metrics_gc defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.385471+00:00 [info] <0.230.0> Running boot step background_gc defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.385525+00:00 [info] <0.230.0> Running boot step routing_ready defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.385535+00:00 [info] <0.230.0> Running boot step pre_flight defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.385554+00:00 [info] <0.230.0> Running boot step notify_cluster defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.385571+00:00 [info] <0.230.0> Running boot step networking defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.385584+00:00 [info] <0.230.0> Running boot step definition_import_worker_pool defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.385606+00:00 [info] <0.282.0> Starting worker pool 'definition_import_pool' with 8 processes in it
+2023-12-20 19:19:17 2023-12-20 17:19:17.385769+00:00 [info] <0.230.0> Running boot step cluster_name defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.385813+00:00 [info] <0.230.0> Initialising internal cluster ID to 'rabbitmq-cluster-id-Wp_hpZBO7XF6a3vCpBFv3g'
+2023-12-20 19:19:17 2023-12-20 17:19:17.386334+00:00 [info] <0.230.0> Running boot step direct_client defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.386378+00:00 [info] <0.230.0> Running boot step rabbit_maintenance_mode_state defined by app rabbit
+2023-12-20 19:19:17 2023-12-20 17:19:17.386397+00:00 [info] <0.230.0> Creating table rabbit_node_maintenance_states for maintenance mode status
+2023-12-20 19:19:17 2023-12-20 17:19:17.387731+00:00 [info] <0.230.0> Running boot step rabbit_management_load_definitions defined by app rabbitmq_management
+2023-12-20 19:19:17 2023-12-20 17:19:17.387790+00:00 [info] <0.601.0> Resetting node maintenance status
+2023-12-20 19:19:17 2023-12-20 17:19:17.393019+00:00 [info] <0.660.0> Management plugin: HTTP (non-TLS) listener started on port 15672
+2023-12-20 19:19:17 2023-12-20 17:19:17.393072+00:00 [info] <0.688.0> Statistics database started.
+2023-12-20 19:19:17 2023-12-20 17:19:17.393099+00:00 [info] <0.687.0> Starting worker pool 'management_worker_pool' with 3 processes in it
+2023-12-20 19:19:17 2023-12-20 17:19:17.396271+00:00 [info] <0.702.0> Prometheus metrics: HTTP (non-TLS) listener started on port 15692
+2023-12-20 19:19:17 2023-12-20 17:19:17.396318+00:00 [info] <0.601.0> Ready to start client connection listeners
+2023-12-20 19:19:17 2023-12-20 17:19:17.397028+00:00 [info] <0.746.0> started TCP listener on [::]:5672
+2023-12-20 19:19:17  completed with 4 plugins.
+2023-12-20 19:19:17 2023-12-20 17:19:17.458253+00:00 [info] <0.601.0> Server startup complete; 4 plugins started.
+2023-12-20 19:19:17 2023-12-20 17:19:17.458253+00:00 [info] <0.601.0>  * rabbitmq_prometheus
+2023-12-20 19:19:17 2023-12-20 17:19:17.458253+00:00 [info] <0.601.0>  * rabbitmq_management
+2023-12-20 19:19:17 2023-12-20 17:19:17.458253+00:00 [info] <0.601.0>  * rabbitmq_management_agent
+2023-12-20 19:19:17 2023-12-20 17:19:17.458253+00:00 [info] <0.601.0>  * rabbitmq_web_dispatch
+2023-12-20 19:19:17 2023-12-20 17:19:17.588766+00:00 [info] <0.9.0> Time to start RabbitMQ: 4065964 us
+2023-12-20 19:19:41 2023-12-20 17:19:41.625395+00:00 [info] <0.814.0> accepting AMQP connection <0.814.0> (192.168.65.1:26539 -> 172.17.0.2:5672)
+2023-12-20 19:19:41 2023-12-20 17:19:41.630930+00:00 [info] <0.814.0> connection <0.814.0> (192.168.65.1:26539 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:19:43 2023-12-20 17:19:43.381787+00:00 [info] <0.845.0> accepting AMQP connection <0.845.0> (192.168.65.1:26540 -> 172.17.0.2:5672)
+2023-12-20 19:19:43 2023-12-20 17:19:43.389795+00:00 [info] <0.845.0> connection <0.845.0> (192.168.65.1:26540 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:19:45 2023-12-20 17:19:45.003675+00:00 [info] <0.861.0> accepting AMQP connection <0.861.0> (192.168.65.1:26546 -> 172.17.0.2:5672)
+2023-12-20 19:19:45 2023-12-20 17:19:45.009064+00:00 [info] <0.861.0> connection <0.861.0> (192.168.65.1:26546 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:19:47 2023-12-20 17:19:47.131229+00:00 [info] <0.886.0> accepting AMQP connection <0.886.0> (192.168.65.1:26548 -> 172.17.0.2:5672)
+2023-12-20 19:19:47 2023-12-20 17:19:47.135488+00:00 [info] <0.886.0> connection <0.886.0> (192.168.65.1:26548 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:19:47 2023-12-20 17:19:47.140040+00:00 [info] <0.886.0> closing AMQP connection <0.886.0> (192.168.65.1:26548 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:21:31 2023-12-20 17:21:31.246841+00:00 [info] <0.861.0> closing AMQP connection <0.861.0> (192.168.65.1:26546 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:21:31 2023-12-20 17:21:31.259420+00:00 [info] <0.845.0> closing AMQP connection <0.845.0> (192.168.65.1:26540 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:21:31 2023-12-20 17:21:31.276465+00:00 [info] <0.814.0> closing AMQP connection <0.814.0> (192.168.65.1:26539 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:21:34 2023-12-20 17:21:34.536538+00:00 [info] <0.1109.0> accepting AMQP connection <0.1109.0> (192.168.65.1:26680 -> 172.17.0.2:5672)
+2023-12-20 19:21:34 2023-12-20 17:21:34.543163+00:00 [info] <0.1109.0> connection <0.1109.0> (192.168.65.1:26680 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:21:36 2023-12-20 17:21:36.863677+00:00 [info] <0.1134.0> accepting AMQP connection <0.1134.0> (192.168.65.1:26682 -> 172.17.0.2:5672)
+2023-12-20 19:21:36 2023-12-20 17:21:36.870575+00:00 [info] <0.1134.0> connection <0.1134.0> (192.168.65.1:26682 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:21:38 2023-12-20 17:21:38.922683+00:00 [info] <0.1149.0> accepting AMQP connection <0.1149.0> (192.168.65.1:26683 -> 172.17.0.2:5672)
+2023-12-20 19:21:38 2023-12-20 17:21:38.926273+00:00 [info] <0.1149.0> connection <0.1149.0> (192.168.65.1:26683 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:21:45 2023-12-20 17:21:45.195549+00:00 [info] <0.1169.0> accepting AMQP connection <0.1169.0> (192.168.65.1:26696 -> 172.17.0.2:5672)
+2023-12-20 19:21:45 2023-12-20 17:21:45.199104+00:00 [info] <0.1169.0> connection <0.1169.0> (192.168.65.1:26696 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:21:45 2023-12-20 17:21:45.204297+00:00 [info] <0.1169.0> closing AMQP connection <0.1169.0> (192.168.65.1:26696 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:22:47 2023-12-20 17:22:47.791368+00:00 [info] <0.1149.0> closing AMQP connection <0.1149.0> (192.168.65.1:26683 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:22:47 2023-12-20 17:22:47.807539+00:00 [info] <0.1134.0> closing AMQP connection <0.1134.0> (192.168.65.1:26682 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:22:47 2023-12-20 17:22:47.825569+00:00 [info] <0.1109.0> closing AMQP connection <0.1109.0> (192.168.65.1:26680 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:22:51 2023-12-20 17:22:51.060400+00:00 [info] <0.1284.0> accepting AMQP connection <0.1284.0> (192.168.65.1:26773 -> 172.17.0.2:5672)
+2023-12-20 19:22:51 2023-12-20 17:22:51.068309+00:00 [info] <0.1284.0> connection <0.1284.0> (192.168.65.1:26773 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:22:53 2023-12-20 17:22:53.248015+00:00 [info] <0.1302.0> accepting AMQP connection <0.1302.0> (192.168.65.1:26775 -> 172.17.0.2:5672)
+2023-12-20 19:22:53 2023-12-20 17:22:53.254093+00:00 [info] <0.1302.0> connection <0.1302.0> (192.168.65.1:26775 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:22:55 2023-12-20 17:22:55.108921+00:00 [info] <0.1317.0> accepting AMQP connection <0.1317.0> (192.168.65.1:26781 -> 172.17.0.2:5672)
+2023-12-20 19:22:55 2023-12-20 17:22:55.113886+00:00 [info] <0.1317.0> connection <0.1317.0> (192.168.65.1:26781 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:22:57 2023-12-20 17:22:57.956392+00:00 [info] <0.1332.0> accepting AMQP connection <0.1332.0> (192.168.65.1:26782 -> 172.17.0.2:5672)
+2023-12-20 19:22:57 2023-12-20 17:22:57.962955+00:00 [info] <0.1332.0> connection <0.1332.0> (192.168.65.1:26782 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:22:57 2023-12-20 17:22:57.968638+00:00 [info] <0.1332.0> closing AMQP connection <0.1332.0> (192.168.65.1:26782 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:23:07 2023-12-20 17:23:07.405688+00:00 [info] <0.1317.0> closing AMQP connection <0.1317.0> (192.168.65.1:26781 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:23:07 2023-12-20 17:23:07.419530+00:00 [info] <0.1302.0> closing AMQP connection <0.1302.0> (192.168.65.1:26775 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:23:07 2023-12-20 17:23:07.437179+00:00 [info] <0.1284.0> closing AMQP connection <0.1284.0> (192.168.65.1:26773 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:25:21 2023-12-20 17:25:21.199837+00:00 [info] <0.1626.0> accepting AMQP connection <0.1626.0> (192.168.65.1:26959 -> 172.17.0.2:5672)
+2023-12-20 19:25:21 2023-12-20 17:25:21.205799+00:00 [info] <0.1626.0> connection <0.1626.0> (192.168.65.1:26959 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:25:23 2023-12-20 17:25:23.719660+00:00 [info] <0.1656.0> accepting AMQP connection <0.1656.0> (192.168.65.1:26965 -> 172.17.0.2:5672)
+2023-12-20 19:25:23 2023-12-20 17:25:23.723080+00:00 [info] <0.1656.0> connection <0.1656.0> (192.168.65.1:26965 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:25:26 2023-12-20 17:25:26.021586+00:00 [info] <0.1682.0> accepting AMQP connection <0.1682.0> (192.168.65.1:26967 -> 172.17.0.2:5672)
+2023-12-20 19:25:26 2023-12-20 17:25:26.029876+00:00 [info] <0.1682.0> connection <0.1682.0> (192.168.65.1:26967 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:25:31 2023-12-20 17:25:31.566819+00:00 [info] <0.1708.0> accepting AMQP connection <0.1708.0> (192.168.65.1:26974 -> 172.17.0.2:5672)
+2023-12-20 19:25:31 2023-12-20 17:25:31.571475+00:00 [info] <0.1708.0> connection <0.1708.0> (192.168.65.1:26974 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:25:31 2023-12-20 17:25:31.575851+00:00 [info] <0.1708.0> closing AMQP connection <0.1708.0> (192.168.65.1:26974 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:29:51 2023-12-20 17:29:51.207151+00:00 [info] <0.1682.0> closing AMQP connection <0.1682.0> (192.168.65.1:26967 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:29:51 2023-12-20 17:29:51.226744+00:00 [info] <0.1656.0> closing AMQP connection <0.1656.0> (192.168.65.1:26965 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:29:51 2023-12-20 17:29:51.244388+00:00 [info] <0.1626.0> closing AMQP connection <0.1626.0> (192.168.65.1:26959 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:29:53 2023-12-20 17:29:53.415130+00:00 [info] <0.2159.0> accepting AMQP connection <0.2159.0> (192.168.65.1:27298 -> 172.17.0.2:5672)
+2023-12-20 19:29:53 2023-12-20 17:29:53.421119+00:00 [info] <0.2159.0> connection <0.2159.0> (192.168.65.1:27298 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:29:55 2023-12-20 17:29:55.028848+00:00 [info] <0.2177.0> accepting AMQP connection <0.2177.0> (192.168.65.1:27305 -> 172.17.0.2:5672)
+2023-12-20 19:29:55 2023-12-20 17:29:55.036056+00:00 [info] <0.2177.0> connection <0.2177.0> (192.168.65.1:27305 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:29:56 2023-12-20 17:29:56.544455+00:00 [info] <0.2192.0> accepting AMQP connection <0.2192.0> (192.168.65.1:27306 -> 172.17.0.2:5672)
+2023-12-20 19:29:56 2023-12-20 17:29:56.551154+00:00 [info] <0.2192.0> connection <0.2192.0> (192.168.65.1:27306 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:29:58 2023-12-20 17:29:58.501479+00:00 [info] <0.2207.0> accepting AMQP connection <0.2207.0> (192.168.65.1:27307 -> 172.17.0.2:5672)
+2023-12-20 19:29:58 2023-12-20 17:29:58.504758+00:00 [info] <0.2207.0> connection <0.2207.0> (192.168.65.1:27307 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:29:58 2023-12-20 17:29:58.509234+00:00 [info] <0.2207.0> closing AMQP connection <0.2207.0> (192.168.65.1:27307 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:30:40 2023-12-20 17:30:40.591220+00:00 [info] <0.2192.0> closing AMQP connection <0.2192.0> (192.168.65.1:27306 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:30:40 2023-12-20 17:30:40.609912+00:00 [info] <0.2177.0> closing AMQP connection <0.2177.0> (192.168.65.1:27305 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:30:40 2023-12-20 17:30:40.628237+00:00 [info] <0.2159.0> closing AMQP connection <0.2159.0> (192.168.65.1:27298 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:30:44 2023-12-20 17:30:44.057726+00:00 [info] <0.2266.0> accepting AMQP connection <0.2266.0> (192.168.65.1:27368 -> 172.17.0.2:5672)
+2023-12-20 19:30:44 2023-12-20 17:30:44.061064+00:00 [info] <0.2266.0> connection <0.2266.0> (192.168.65.1:27368 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:30:45 2023-12-20 17:30:45.803225+00:00 [info] <0.2281.0> accepting AMQP connection <0.2281.0> (192.168.65.1:27369 -> 172.17.0.2:5672)
+2023-12-20 19:30:45 2023-12-20 17:30:45.807925+00:00 [info] <0.2281.0> connection <0.2281.0> (192.168.65.1:27369 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:30:47 2023-12-20 17:30:47.505887+00:00 [info] <0.2296.0> accepting AMQP connection <0.2296.0> (192.168.65.1:27370 -> 172.17.0.2:5672)
+2023-12-20 19:30:47 2023-12-20 17:30:47.510917+00:00 [info] <0.2296.0> connection <0.2296.0> (192.168.65.1:27370 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:30:49 2023-12-20 17:30:49.851344+00:00 [info] <0.2314.0> accepting AMQP connection <0.2314.0> (192.168.65.1:27372 -> 172.17.0.2:5672)
+2023-12-20 19:30:49 2023-12-20 17:30:49.857412+00:00 [info] <0.2314.0> connection <0.2314.0> (192.168.65.1:27372 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:31:09 2023-12-20 17:31:09.875056+00:00 [info] <0.2314.0> closing AMQP connection <0.2314.0> (192.168.65.1:27372 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:34:37 2023-12-20 17:34:37.781641+00:00 [info] <0.2296.0> closing AMQP connection <0.2296.0> (192.168.65.1:27370 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:34:37 2023-12-20 17:34:37.799726+00:00 [info] <0.2281.0> closing AMQP connection <0.2281.0> (192.168.65.1:27369 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:34:37 2023-12-20 17:34:37.819361+00:00 [info] <0.2266.0> closing AMQP connection <0.2266.0> (192.168.65.1:27368 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:34:39 2023-12-20 17:34:39.740670+00:00 [info] <0.2650.0> accepting AMQP connection <0.2650.0> (192.168.65.1:27649 -> 172.17.0.2:5672)
+2023-12-20 19:34:39 2023-12-20 17:34:39.744954+00:00 [info] <0.2650.0> connection <0.2650.0> (192.168.65.1:27649 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:34:41 2023-12-20 17:34:41.673576+00:00 [info] <0.2665.0> accepting AMQP connection <0.2665.0> (192.168.65.1:27655 -> 172.17.0.2:5672)
+2023-12-20 19:34:41 2023-12-20 17:34:41.677493+00:00 [info] <0.2665.0> connection <0.2665.0> (192.168.65.1:27655 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:34:43 2023-12-20 17:34:43.287779+00:00 [info] <0.2680.0> accepting AMQP connection <0.2680.0> (192.168.65.1:27656 -> 172.17.0.2:5672)
+2023-12-20 19:34:43 2023-12-20 17:34:43.295492+00:00 [info] <0.2680.0> connection <0.2680.0> (192.168.65.1:27656 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:34:56 2023-12-20 17:34:56.583779+00:00 [info] <0.2742.0> accepting AMQP connection <0.2742.0> (192.168.65.1:27676 -> 172.17.0.2:5672)
+2023-12-20 19:34:56 2023-12-20 17:34:56.588323+00:00 [info] <0.2742.0> connection <0.2742.0> (192.168.65.1:27676 -> 172.17.0.2:5672): user 'guest' authenticated and granted access to vhost '/'
+2023-12-20 19:35:16 2023-12-20 17:35:16.603499+00:00 [info] <0.2742.0> closing AMQP connection <0.2742.0> (192.168.65.1:27676 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:39:57 2023-12-20 17:39:57.562295+00:00 [info] <0.2680.0> closing AMQP connection <0.2680.0> (192.168.65.1:27656 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:39:57 2023-12-20 17:39:57.582793+00:00 [info] <0.2665.0> closing AMQP connection <0.2665.0> (192.168.65.1:27655 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
+2023-12-20 19:39:57 2023-12-20 17:39:57.603697+00:00 [info] <0.2650.0> closing AMQP connection <0.2650.0> (192.168.65.1:27649 -> 172.17.0.2:5672, vhost: '/', user: 'guest')
